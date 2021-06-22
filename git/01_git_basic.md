@@ -78,6 +78,49 @@ $ git log --oneline
 
 
 
+## 리모트 연결하기
+
+```
+$ git remote add <name> <url>
+
+# 리모트 삭제하기
+$ git reomte remove <name>
+
+#리모트 이름 바꾸기
+$ git remote rename <old-name> <new-name>
+```
+
+
+
+## 리모트에 PUSH하기
+
+리모트에 업로드
+
+```
+$  git push <name> <branch>
+```
+
+
+
+## 리모트에서 최초 CLONE 받기
+
+리모트 리포 내용을 그대로 복제
+
+```
+$ git clone (url.git)
+```
+
+
+
+##  리모트에서 PULL 하기
+
+```
+```
+
+
+
+
+
 ## vim (txt 수정)
 
 1. `i`수정 모드
