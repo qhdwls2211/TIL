@@ -115,13 +115,39 @@ $ git clone (url.git)
 ##  리모트에서 PULL 하기
 
 ```
+$ git pull <name> <branch>
 ```
 
 
 
+## 강의장 <=> 집 공부
+
+앉을 때 PULL, 일 어설 때 PUSH
+
+1. 집에서 기상
+2. 강의장 도착
+   1. `pull`
+3. 공부 / TIL 정리
+   1. `commit`
+4. 강의 종료
+   1. `commit`
+   2. `push`
+5. 집 도착
+6. 복습
+   1. (처음이라면) `clone`
+   2. `pull`
+   3. `commit`
+7. 복습 끝
+   1. `commit`
+   2. `push`
+8. 잠
+9. 1 번으로 이동
 
 
-## vim (txt 수정)
+
+
+
+## * vim (txt 수정) *
 
 1. `i`수정 모드
 2. `esc` 눌러서 나오기
