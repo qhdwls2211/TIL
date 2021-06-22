@@ -96,6 +96,8 @@ $ git remote rename <old-name> <new-name>
 
 리모트에 업로드
 
+ex git push origin master
+
 ```
 $  git push <name> <branch>
 ```
